@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario - Llapo</title>
+</head>
+<body bgcolor="#F0F4F8">
+	<table align="center" width="100%" cellpadding="12">
+		<tr>
+			<td colspan="4" align="center">
+				<nav>
+					<hr>
+					<a href="index.html">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="Turísmo.html">Lugares de Llapo</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="Platos.html">Platos típicos</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="Danzas.html">Danzas</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="Formulario.html">Formulario</a>
+					<hr>
+				</nav>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<font color="#1A237E"><h2><u>Mesa de Partes y Registro Ciudadano</u></h2></font>
+				<p align="justify">
+					Bienvenido al portal oficial de atención al ciudadano de la Municipalidad Distrital de Llapo. A través de este formulario puede registrar sus solicitudes, trámites administrativos o constancias de actividades para mantenernos en contacto directo con nuestra comunidad.
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" width="40%">
+				<fieldset>
+					<legend><font color="#B71C1C"><h2>Registro de Solicitudes y Actividades</h2></font></legend>			
+					<form action="home.html">
+						<div>
+							<label><b>DNI del Solicitante:</b></label><br>
+							<input type="number" placeholder="Ingrese su DNI" required>
+						</div>
+						<br>
+						<div>
+							<label><b>Género:</b></label><br>
+							<input type="radio" id="masculino" name="genero" value="masculino" required>
+							<label for="masculino">Masculino</label>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" id="femenino" name="genero" value="femenino">
+							<label for="femenino">Femenino</label>
+						</div>
+						<br>
+						<div>
+							<label><b>Nombres y Apellidos:</b></label><br>
+							<input type="text" placeholder="Nombres completos" size="40" required>
+						</div>
+						<br>
+						<div>
+							<label><b>Correo Electrónico:</b></label><br>
+							<input type="email" placeholder="correo@ejemplo.com" size="40" required>
+						</div>
+						<br>
+						<div>
+							<label><b>Número Telefónico:</b></label><br>
+							<input type="number" placeholder="999999999" size="40">
+						</div>
+						<br>
+						<div>
+							<label><b>Tipo de Trámite o Área:</b></label><br>
+							<select required>
+								<option value="">-- Seleccione una opción --</option>
+								<option value="actividad">Registro de Actividad Laboral / Comunal</option>
+								<option value="turismo">Consulta Turística</option>
+								<option value="municipal">Mesa de Partes Municipal</option>
+							</select>
+						</div>
+						<br>
+						<div>
+							<label><b>Descripción de la Solicitud o Funciones:</b></label><br>
+							<input type="text" placeholder="Describa detalladamente el motivo de su registro..." required size="70">
+						</div>
+						<br>
+						<div>
+							<label><b>Fecha de Presentación:</b></label><br>
+							<input type="date" required>
+						</div>
+						<br>
+						<div>
+							<label><b>Adjuntar Documento o DNI:</b></label><br>
+							<input type="file" required>
+						</div>
+						<br>
+						<div>
+							<input type="checkbox" required> Declaro que los datos proporcionados son verdaderos.
+						</div>
+						<br>
+						<div align="center">
+							<input type="submit">
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="reset">
+						</div>
+					</form>
+				</fieldset>
+			</td>
+			<td colspan="2" width="40%" align="center">
+				<fieldset>
+					<font color="#1A237E"><h2>Compromiso y Atención</h2></font>
+					<img src="../Imagenes/llapo3.jpeg" alt="Distrito de Llapo" width="500px"><br><br>
+					<p align="justify">
+						Cada trámite ingresado a través de nuestra plataforma digital es atendido por las áreas correspondientes de la municipalidad, garantizando la transparencia y el servicio oportuno a todos los vecinos de Llapo y turístas.
+					</p>
+					<p align="center"><b>¡Estamos para servirle!</b></p>
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center" bgcolor="#70B395">
+				<footer>
+					<p>
+						<b>Página Informativa del Distrito de Llapo - Pallasca, Áncash</b><br>
+						Proyecto de Entorno Web © 2026
+					</p>
+				</footer>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
